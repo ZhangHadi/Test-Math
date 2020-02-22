@@ -1,0 +1,85 @@
+body{
+	background-color: aquamarine;
+}
+.startPage{
+	text-align: center;
+	margin-top:200px;
+}
+.time{
+	position: absolute;
+	left:10%;
+	padding:10px;
+	font-size:18px;
+	border:1px solid red;
+}
+.score{
+	position: absolute;
+	right:10%;
+	padding:10px;
+	font-size:18px;
+	border:1px solid red;
+}
+#petunjuk{
+	text-align: center;
+	font-size: 30px;
+	color:red;
+	
+}
+.soal{
+	width:200px;
+	margin:0 auto;
+	text-align: center;
+	/* border:1px solid red; */
+}
+.tulisanSoal{
+	font-family: sans-serif;
+	font-weight: 800;
+}
+.jawaban{
+	width:140px;
+	margin:0 auto;
+	text-align: start;
+	/* border:1px solid red; */
+}
+.jawaban > button{
+	background-color: transparent;
+	font-size:28px;
+	font-weight: 800;
+	width:140px;
+	height:60px;
+	cursor: pointer;
+	text-align: start;
+	border:1px solid aquamarine;
+}
+.jawaban > button:hover{
+	background-color: rgb(0, 255, 128);
+	border:1px solid black;
+	width:140px;
+	height:60px;
+	cursor: pointer;
+}
+.restart{
+	text-align: center;	
+}
+@media (max-width:419px){
+	.soal{
+		width:200px;
+		margin:0 auto;
+	}	
+	#petunjuk{
+		font-size: 15px;
+		color:navy;
+	}
+}
+@media (min-width:420px) and (max-width:550px){
+	#petunjuk{
+		font-size: 20px;
+		color:white;
+	}
+}
+@media (min-width:551px) and (max-width:768px){
+	#petunjuk{
+		font-size: 28px;
+		color:red;
+	}
+}
